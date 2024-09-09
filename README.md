@@ -31,6 +31,14 @@ Se puede usar makefile para eliminar archivos creados con make
 Parametro agregado correspondiente solo a laboratorio 2:
 * **W**: Cantidad de workers a crear (**int** debe ser un número positivo)
 
+
+Antes de realizar la ejecución se deben tener las imagenes BMP con su prefijo asociado dentro del directorio asociado al laboratorio.
+Para tres imagenes con el prefijo **img** dentro del directorio (la enumeración debe comenzar en 1 y debe ser secuencial, en este caso 1, 2 y 3 sin saltarse el 2 antes del 3):
+* img_1.bmp
+* img_2.bmp
+* img_3.bmp
+
+
 ### **Ejecución Laboratorio 1**
 > **>>> ./lab1 -N imagen -f 2 -p 2 -u 0.7 -v 0.8 -C ImagenesFiltradas -R ImagenesClasificadas**
 
